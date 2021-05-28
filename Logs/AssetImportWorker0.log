@@ -15,11 +15,11 @@ C:/Users/Vicky/Documents/FindingNova/Platform Game Test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51915
+53270
 Successfully changed project path to: C:/Users/Vicky/Documents/FindingNova/Platform Game Test
 C:/Users/Vicky/Documents/FindingNova/Platform Game Test
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 86.96 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 81.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Users/Vicky/Desktop/Unity Project/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,62 +35,666 @@ Initialize mono
 Mono path[0] = 'C:/Users/Vicky/Desktop/Unity Project/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/Vicky/Desktop/Unity Project/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/Vicky/Desktop/Unity Project/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/Vicky/Desktop/Unity Project/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003964 seconds.
+Registered in 0.003935 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 83.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 81.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.115 seconds
+- Completed reload, in  4.035 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001770 seconds.
+Registered in 0.001854 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 81.75 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 81.04 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.118 seconds
+- Completed reload, in  2.088 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1830 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.7 MB.
+Unloading 1831 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
 System memory in use after: 85.7 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2272.
-Total: 3.767100 ms (FindLiveObjects: 0.291700 ms CreateObjectMapping: 0.158600 ms MarkObjects: 3.074500 ms  DeleteObjects: 0.240600 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2273.
+Total: 3.831000 ms (FindLiveObjects: 0.302000 ms CreateObjectMapping: 0.160700 ms MarkObjects: 3.115100 ms  DeleteObjects: 0.250700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(1671948b8d5447b4ca8f7957a6f8484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(1671948b8d5447b4ca8f7957a6f8484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d4889160222e85e30372fd4a13ffce') in 0.073464 seconds
-  Import took 0.079138 seconds .
+  path: Assets/Scripts/CharacterController.cs
+  artifactKey: Guid(2a40d9ae1f3dd4d48b68bbd8b5b546b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CharacterController.cs using Guid(2a40d9ae1f3dd4d48b68bbd8b5b546b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac4bcd6e2a33403b9a606b8c990e902') in 0.085602 seconds
+  Import took 0.091201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002143 seconds.
+  path: Assets/Scripts/CharacterController.cs
+  artifactKey: Guid(2a40d9ae1f3dd4d48b68bbd8b5b546b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CharacterController.cs using Guid(2a40d9ae1f3dd4d48b68bbd8b5b546b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac4bcd6e2a33403b9a606b8c990e902') in 0.003300 seconds
+  Import took 0.008530 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001858 seconds.
+Registered in 0.001791 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.040 seconds
+- Completed reload, in  2.053 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.7 MB.
 System memory in use after: 85.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2276.
-Total: 3.976300 ms (FindLiveObjects: 0.329100 ms CreateObjectMapping: 0.194300 ms MarkObjects: 3.218400 ms  DeleteObjects: 0.232300 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2276.
+Total: 4.487600 ms (FindLiveObjects: 0.321400 ms CreateObjectMapping: 0.206400 ms MarkObjects: 3.720400 ms  DeleteObjects: 0.237500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.927591 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_0.asset
+  artifactKey: Guid(2b5bca19535ea404db4a5cac8c3e28c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_0.asset using Guid(2b5bca19535ea404db4a5cac8c3e28c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d9786812608daa626d7566600f6454') in 0.178910 seconds
+  Import took 0.185939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_15.asset
+  artifactKey: Guid(53c4d4b08e0cd8145b6bcfdc0de169c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_15.asset using Guid(53c4d4b08e0cd8145b6bcfdc0de169c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf9f586d4f65846ec03cdd251997ba1') in 0.024348 seconds
+  Import took 0.030310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_6.asset
+  artifactKey: Guid(85eeba8e2cf74484e8035cee0a8a9a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_6.asset using Guid(85eeba8e2cf74484e8035cee0a8a9a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26e09f8ce0db458d3568b8ef03b54c6') in 0.022812 seconds
+  Import took 0.028279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_11.asset
+  artifactKey: Guid(566f10790ae31db439d0a46e71bbbf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_11.asset using Guid(566f10790ae31db439d0a46e71bbbf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37448cb7295626adaf06eafa1eddb66a') in 0.021492 seconds
+  Import took 0.026976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_18.asset
+  artifactKey: Guid(05377a36662897044972aa20177afbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_18.asset using Guid(05377a36662897044972aa20177afbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756b26db7c682d9cfdcf1517658c18d1') in 0.021465 seconds
+  Import took 0.027044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_2.asset
+  artifactKey: Guid(ecd2d7b44b334ca4c8dfec6cc1598395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_2.asset using Guid(ecd2d7b44b334ca4c8dfec6cc1598395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f103fe6f3904b095a6c3b74bb1bb9a6a') in 0.022302 seconds
+  Import took 0.027625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_5.asset
+  artifactKey: Guid(797fe3024c81bc842af540dd693b0e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_5.asset using Guid(797fe3024c81bc842af540dd693b0e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7e60a7b6787169bc860695453dbd3f') in 0.021661 seconds
+  Import took 0.027122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_23.asset
+  artifactKey: Guid(48573efff5e8a6940b8074878d257c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_23.asset using Guid(48573efff5e8a6940b8074878d257c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc6cd85c57d23896f9cd25e7317ef91') in 0.018564 seconds
+  Import took 0.024236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_20.asset
+  artifactKey: Guid(6e1bd3a19d0ba7a44bbe8a9e09aff6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_20.asset using Guid(6e1bd3a19d0ba7a44bbe8a9e09aff6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd0370b614e2c7b369340ddc551d5eb') in 0.016925 seconds
+  Import took 0.022164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_27.asset
+  artifactKey: Guid(61f5e0d58e903b0448d4171b2134c428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_27.asset using Guid(61f5e0d58e903b0448d4171b2134c428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6d63ccc53389b7289fa720231f1a6a') in 0.017183 seconds
+  Import took 0.022428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_28.asset
+  artifactKey: Guid(9c3b7ff0778c51e49bd18233ec082e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_28.asset using Guid(9c3b7ff0778c51e49bd18233ec082e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36990431847fc4bcf786066a8fe14ed8') in 0.016918 seconds
+  Import took 0.022202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_34.asset
+  artifactKey: Guid(d426aff8232d2bb4184f714977ee0080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_34.asset using Guid(d426aff8232d2bb4184f714977ee0080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556555dc5698f92a794a9dd2abf6411b') in 0.017309 seconds
+  Import took 0.022566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_33.asset
+  artifactKey: Guid(e1a85f5fdfbaddf4baa063b6cd3e9a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_33.asset using Guid(e1a85f5fdfbaddf4baa063b6cd3e9a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8d36410f3ebc3c73390051bc78b07b') in 0.017130 seconds
+  Import took 0.022393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_41.asset
+  artifactKey: Guid(c1475c644f3a63a4fb0357c98406f8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_41.asset using Guid(c1475c644f3a63a4fb0357c98406f8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55abd71016757d75efd92c7c92dee71f') in 0.017279 seconds
+  Import took 0.022899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_42.asset
+  artifactKey: Guid(de5624f855c04594b9358b4c3f8fccda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_42.asset using Guid(de5624f855c04594b9358b4c3f8fccda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bd59a55c843a2f72c9210965949ef4') in 0.017245 seconds
+  Import took 0.022560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_38.asset
+  artifactKey: Guid(673144d231fba014a9cbb5b5f44d8843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_38.asset using Guid(673144d231fba014a9cbb5b5f44d8843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb67cea7e515c03a50a809becd283fe9') in 0.017183 seconds
+  Import took 0.022556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_35.asset
+  artifactKey: Guid(cce801b03fc252c4daaec8c54d81bcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_35.asset using Guid(cce801b03fc252c4daaec8c54d81bcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12a77b442e683a66fac038b98c2d69b') in 0.016900 seconds
+  Import took 0.022292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_30.asset
+  artifactKey: Guid(5121d737b97e3ac41a549680eb15c4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_30.asset using Guid(5121d737b97e3ac41a549680eb15c4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9d230f78b5f90895bbf556637f7140') in 0.017078 seconds
+  Import took 0.022321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_50.asset
+  artifactKey: Guid(a25c5a830f903a545adfae83dd8cef81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_50.asset using Guid(a25c5a830f903a545adfae83dd8cef81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bba2177cad0a55c0fe775c01a63972') in 0.016760 seconds
+  Import took 0.022029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_54.asset
+  artifactKey: Guid(6c311685b621a384c97ecd6551c93140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_54.asset using Guid(6c311685b621a384c97ecd6551c93140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fedeeb3f6018f2bfe8d4e65a11c703') in 0.016795 seconds
+  Import took 0.022179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_58.asset
+  artifactKey: Guid(05a0edf4b0157a94b9496562f8335c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_58.asset using Guid(05a0edf4b0157a94b9496562f8335c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819b9659284a07cba53f892b14ac5c63') in 0.017399 seconds
+  Import took 0.023061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_53.asset
+  artifactKey: Guid(46dfa1ab79c0e7742b536b4924e5e5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_53.asset using Guid(46dfa1ab79c0e7742b536b4924e5e5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a46d20af2dab98e3998047124135b05') in 0.017896 seconds
+  Import took 0.023836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_59.asset
+  artifactKey: Guid(8d5ae2dd55024af4e97d895142f3f1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_59.asset using Guid(8d5ae2dd55024af4e97d895142f3f1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad96854756f71580054708e9e543439') in 0.017361 seconds
+  Import took 0.022941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_57.asset
+  artifactKey: Guid(57ef617623b71ba4db8ce6533bbc3973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_57.asset using Guid(57ef617623b71ba4db8ce6533bbc3973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9217428b3da1e2ebc4b5c9565bb724c7') in 0.019705 seconds
+  Import took 0.025158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_55.asset
+  artifactKey: Guid(adcb9cab7c2e98b49a02498a516fce0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_55.asset using Guid(adcb9cab7c2e98b49a02498a516fce0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c058509461d839789100eab14a462ad') in 0.017526 seconds
+  Import took 0.022803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_49.asset
+  artifactKey: Guid(5d9b9ae6551589b4ab4657124ccfc36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_49.asset using Guid(5d9b9ae6551589b4ab4657124ccfc36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6831ab9a86f913a30b15f7ecbfc22b') in 0.018342 seconds
+  Import took 0.023914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_1.asset
+  artifactKey: Guid(476d4646fe136974db4e84b26bd0063d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_1.asset using Guid(476d4646fe136974db4e84b26bd0063d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7941c2fed85257cbf1482746e94d0627') in 0.019421 seconds
+  Import took 0.024900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_26.asset
+  artifactKey: Guid(8c9624e5dc904ca47886dd0efc4d85a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_26.asset using Guid(8c9624e5dc904ca47886dd0efc4d85a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ff7a4f335a4fcfc27be0f6cb506593') in 0.017105 seconds
+  Import took 0.022525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_3.asset
+  artifactKey: Guid(a524e4b35175e044ab7cb678d9f8f632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_3.asset using Guid(a524e4b35175e044ab7cb678d9f8f632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645b70d39b1b9c42992d5cee532d6be5') in 0.026844 seconds
+  Import took 0.032188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_12.asset
+  artifactKey: Guid(c4f9aecdf14c6294c8b715f75a7c25f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_12.asset using Guid(c4f9aecdf14c6294c8b715f75a7c25f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a87cc2a02248a29d6d9f61b68c69ec5') in 0.017164 seconds
+  Import took 0.022390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_17.asset
+  artifactKey: Guid(6590ee181bb28784abe8737e0e2b2d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_17.asset using Guid(6590ee181bb28784abe8737e0e2b2d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c481705546966d54e47e048c4899a36') in 0.022683 seconds
+  Import took 0.028161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_24.asset
+  artifactKey: Guid(31db1df6ceea5844fbbbcc21d5e5adfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_24.asset using Guid(31db1df6ceea5844fbbbcc21d5e5adfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad74a5fcdebf193a25f975b54f1ceebe') in 0.018567 seconds
+  Import took 0.024080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_46.asset
+  artifactKey: Guid(8f70ee8ef2868034b997d98668e7b90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_46.asset using Guid(8f70ee8ef2868034b997d98668e7b90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b5a435f9cdea68919d6602ab4ba3a4') in 0.021603 seconds
+  Import took 0.027410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_25.asset
+  artifactKey: Guid(fe0668416b0d21a4cb13338b0350e881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_25.asset using Guid(fe0668416b0d21a4cb13338b0350e881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72aa2feb363ce5e59948477de04d43c1') in 0.017615 seconds
+  Import took 0.023013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_39.asset
+  artifactKey: Guid(5f4acefe7f0ce7a48bebb92e968d2674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_39.asset using Guid(5f4acefe7f0ce7a48bebb92e968d2674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c154d1269f572de3f4016750110d7a6c') in 0.023347 seconds
+  Import took 0.028820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_13.asset
+  artifactKey: Guid(fef4b1a63e9af664c92ba42615bfc8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_13.asset using Guid(fef4b1a63e9af664c92ba42615bfc8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa22fa1a2d723f0c194f31a224c002a6') in 0.018570 seconds
+  Import took 0.024118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_60.asset
+  artifactKey: Guid(956f1feb450f9de4ebe0280e15e9da3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_60.asset using Guid(956f1feb450f9de4ebe0280e15e9da3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e20e4a8ddfbf269c8a6a6ea1a429c6') in 0.019231 seconds
+  Import took 0.024571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_7.asset
+  artifactKey: Guid(d760b17a6e27ba943b3c22278486a945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_7.asset using Guid(d760b17a6e27ba943b3c22278486a945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0c5e9290de55b330b9c9f5f3df3551') in 0.017250 seconds
+  Import took 0.022765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_9.asset
+  artifactKey: Guid(79c2c788a82633b4fb792afb0448c6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_9.asset using Guid(79c2c788a82633b4fb792afb0448c6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a3ac9cde41b51d37b77fa3619dc2e3') in 0.017130 seconds
+  Import took 0.022555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_14.asset
+  artifactKey: Guid(f96077d0a44e9ca489c1780027688b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_14.asset using Guid(f96077d0a44e9ca489c1780027688b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e093738e8735035503258fc86af1e320') in 0.020478 seconds
+  Import took 0.025835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_43.asset
+  artifactKey: Guid(973e47cf5742b7743a78501faaedfc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_43.asset using Guid(973e47cf5742b7743a78501faaedfc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46e5284d23a6a9a32ceb970ec867545') in 0.017523 seconds
+  Import took 0.023047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_19.asset
+  artifactKey: Guid(27ad1a7fb6579c84ab87a662ccf6e81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_19.asset using Guid(27ad1a7fb6579c84ab87a662ccf6e81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc9c124bf2c1acac2016f24d7cdad3c') in 0.023845 seconds
+  Import took 0.029239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_47.asset
+  artifactKey: Guid(31064b432820c0141ba96779e8a98d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_47.asset using Guid(31064b432820c0141ba96779e8a98d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d3a1c88ea8ae769a17026b8b55378a') in 0.016852 seconds
+  Import took 0.022297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_36.asset
+  artifactKey: Guid(b23b11099c6f09f458443af7911fdeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_36.asset using Guid(b23b11099c6f09f458443af7911fdeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd0c6d838aff995cb29a60ab64c6233') in 0.022999 seconds
+  Import took 0.028398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_44.asset
+  artifactKey: Guid(f010941493be84e42ad9d29f0b78b96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_44.asset using Guid(f010941493be84e42ad9d29f0b78b96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d24e6d9dfa108f20519654b0efc3dd1') in 0.019642 seconds
+  Import took 0.024966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_51.asset
+  artifactKey: Guid(0a3eca15ad4617a45af6e08e12444500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_51.asset using Guid(0a3eca15ad4617a45af6e08e12444500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da68568b45be1dab37777d7ffeac52b3') in 0.022743 seconds
+  Import took 0.028416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_37.asset
+  artifactKey: Guid(8c0e85cc82fcd744ba81e203cb362280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_37.asset using Guid(8c0e85cc82fcd744ba81e203cb362280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10783753a3a2e439e111044a53aaaec0') in 0.017525 seconds
+  Import took 0.022871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_40.asset
+  artifactKey: Guid(b281a43c6aeed7f448354e18ff798e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_40.asset using Guid(b281a43c6aeed7f448354e18ff798e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1793d74a4e20811d2b13da955499cbd3') in 0.025548 seconds
+  Import took 0.030911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_29.asset
+  artifactKey: Guid(8e4d4d805832d5542bd61f1b011be147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_29.asset using Guid(8e4d4d805832d5542bd61f1b011be147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d00385722943d17e5da9e205574982') in 0.026108 seconds
+  Import took 0.031649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_45.asset
+  artifactKey: Guid(307a8cc3cb352254e93ee4c56049b9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_45.asset using Guid(307a8cc3cb352254e93ee4c56049b9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa28b1b27743892ba3bac2b26c5a1ba') in 0.017530 seconds
+  Import took 0.023366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_22.asset
+  artifactKey: Guid(64c529bef45ac174f8a7e8aeb766e947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_22.asset using Guid(64c529bef45ac174f8a7e8aeb766e947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88d18e902c6c424fe3e3544d610cc5c') in 0.017055 seconds
+  Import took 0.022363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_56.asset
+  artifactKey: Guid(6ef8d12fd9d94da4dac3f8a62d899e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_56.asset using Guid(6ef8d12fd9d94da4dac3f8a62d899e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa4e3e62dcfeb001cff997f756e8e21') in 0.022275 seconds
+  Import took 0.027542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_32.asset
+  artifactKey: Guid(1a583ff60bcd3684eadfdc3c2f141768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_32.asset using Guid(1a583ff60bcd3684eadfdc3c2f141768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6ae2927a1c0db7fb0e36174c7ced89') in 0.017136 seconds
+  Import took 0.022393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_31.asset
+  artifactKey: Guid(802953cae17bb7e45b30c59ec2ca7b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_31.asset using Guid(802953cae17bb7e45b30c59ec2ca7b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4052d4cc5f72c26a9a10f691cd86b0') in 0.021523 seconds
+  Import took 0.026836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_10.asset
+  artifactKey: Guid(f32dcf23ff09c73448922eef95c4549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_10.asset using Guid(f32dcf23ff09c73448922eef95c4549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439071af261e9be6f20b1fc404f92479') in 0.017181 seconds
+  Import took 0.022716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_52.asset
+  artifactKey: Guid(cb8e2e0b21e0c824089c47db2bcb7d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_52.asset using Guid(cb8e2e0b21e0c824089c47db2bcb7d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2be3d5808dc3bafaaba1a2f0d60dbbf') in 0.017001 seconds
+  Import took 0.022551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_48.asset
+  artifactKey: Guid(22a24d53867325746a536843a77a5be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_48.asset using Guid(22a24d53867325746a536843a77a5be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a15a2e582fd7a7f3ae2377313335a15') in 0.017381 seconds
+  Import took 0.022861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_16.asset
+  artifactKey: Guid(126b736bf389fc44b982ac6a60156557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_16.asset using Guid(126b736bf389fc44b982ac6a60156557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4dd893e0653ba4040ce009670b58dd') in 0.020038 seconds
+  Import took 0.025395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_8.asset
+  artifactKey: Guid(1e1c26fb5e6019342bea0c63f366009a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_8.asset using Guid(1e1c26fb5e6019342bea0c63f366009a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744b7877cf1db0387053802bae8bb6d1') in 0.017052 seconds
+  Import took 0.022394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_21.asset
+  artifactKey: Guid(51d643fb18dd32945b69d9dd6df083e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_21.asset using Guid(51d643fb18dd32945b69d9dd6df083e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fc1f72041fcda6774bcf42b8c13063') in 0.019060 seconds
+  Import took 0.024381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_4.asset
+  artifactKey: Guid(abf602a1ddffc344fa2ff5e55f7a5b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Grassland/pixel_platform_01_tileset_final_4.asset using Guid(abf602a1ddffc344fa2ff5e55f7a5b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b842da0f45b79e50656f4a00f3fa5a') in 0.017458 seconds
+  Import took 0.022984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.404699 seconds.
+  path: Assets/Art/Sprites/Tiles/Animated/Water_Animated.asset
+  artifactKey: Guid(9cd8257ce60e33741917c46a8a545fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Tiles/Animated/Water_Animated.asset using Guid(9cd8257ce60e33741917c46a8a545fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf3a5fb36b5adbf0e6b4eadf6ce06c2') in 0.013483 seconds
+  Import took 0.019964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.822899 seconds.
+  path: Assets/Art/Sprites/Level Building
+  artifactKey: Guid(16bd8c4090cbffd489aedc229d2c3704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Level Building using Guid(16bd8c4090cbffd489aedc229d2c3704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc206525c4a66d6dd5ce310f1539389') in 0.013372 seconds
+  Import took 0.020510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.277657 seconds.
+  path: Assets/Art/Sprites/Level Building/Backgrounds
+  artifactKey: Guid(c0a463f326479a84190f0216661c3fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Level Building/Backgrounds using Guid(c0a463f326479a84190f0216661c3fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10139f76e64da851b21b5d3bfa5b297c') in 0.013440 seconds
+  Import took 0.020532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.306585 seconds.
+  path: Assets/Art/Sprites/Level Building/Grasslands
+  artifactKey: Guid(678977b61fabd8248afb89c971575389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Level Building/Grasslands using Guid(678977b61fabd8248afb89c971575389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0ff8f0730529010fa3ac9cb539d52d') in 0.014243 seconds
+  Import took 0.021410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 303.314487 seconds.
+  path: Assets/Art/Sprites/Level Building/Grasslands/pixel_platform_01_tileset_final.png
+  artifactKey: Guid(894149d29ae72724ea8940bd1889eb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Level Building/Grasslands/pixel_platform_01_tileset_final.png using Guid(894149d29ae72724ea8940bd1889eb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95ebf2d90da02516f7de5bd0d4df377') in 0.426884 seconds
+  Import took 0.435754 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001773 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.837 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2289.
+Total: 3.706600 ms (FindLiveObjects: 0.282600 ms CreateObjectMapping: 0.162000 ms MarkObjects: 3.064100 ms  DeleteObjects: 0.195900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.845 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 4.070100 ms (FindLiveObjects: 0.304400 ms CreateObjectMapping: 0.155700 ms MarkObjects: 3.410100 ms  DeleteObjects: 0.197900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001827 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.078 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2297.
+Total: 4.600000 ms (FindLiveObjects: 0.316200 ms CreateObjectMapping: 0.195300 ms MarkObjects: 3.854000 ms  DeleteObjects: 0.232200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7342.860531 seconds.
+  path: Assets/Art/Sprites/Player Cat/bwcat_idle_blink_strip8.png
+  artifactKey: Guid(12cc1c808098fe84b921eb2f4c37586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Player Cat/bwcat_idle_blink_strip8.png using Guid(12cc1c808098fe84b921eb2f4c37586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1548390646aaff2e6d279b537a3f4e') in 0.174222 seconds
+  Import took 0.183223 seconds .
 
